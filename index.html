@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AboutHer App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> 
+    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="infoPage">
+    <div data-role="header" data-position="fixed"><h1>HM The Queen</h1></div>
+    <div data-role="content">
+
+        <img style="width:100%" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-0.jpg">
+        <div data-role="collapsible-set" data-content-theme="d">
+            
+            <div data-role="collapsible">
+                <h3>Coronation</h3>
+                <p>5 May 1950</p>
+
+            </div>
+
+            <div data-role="collapsible">
+                <h3>House</h3>
+                <ul>
+                    <li>House of Kitiyakara (by birth)</li>
+                    <li>House of Mahidol (by marriage)</li>
+                    <li>Chakri Dynasty</li>
+                </ul>
+            </div> 
+
+            <div data-role="collapsible">
+                <h3>Born</h3>
+                <ul>
+                    <li>12 August 1932 (age 80)</li>
+                    <li>Bangkok, Thailand</li>
+                </ul>
+            </div>          
+
+            <div data-role="collapsible">
+                <h3>Signature</h3>
+                <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Queen_Sirikit_Signature.svg/125px-Queen_Sirikit_Signature.svg.png">
+            </div>          
+
+            <div data-role="collapsible">
+                <h3>Religion</h3>
+                <p>Theravada Buddhism</p>
+            </div>                 
+
+        </div>
+
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-icon="info" class="ui-btn-active ui-state-persist" href="#infoPage">Info</a></li>
+                <li><a data-icon="plus" href="#bioPage">Biography</a></li>
+                <li><a data-icon="grid" href="#photoPage">Photos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div data-role="page" id="bioPage">
+    <div data-role="header" data-position="fixed"><h3>Biography</h3></div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">Early life</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Marriage</a></li>
+            <li><a href="#">Regency</a></li>                        
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Decorations</a></li>  
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-icon="info" href="#infoPage">Info</a></li>
+                <li><a data-icon="plus" class="ui-btn-active ui-state-persist" href="#bioPage">Biography</a></li>
+                <li><a data-icon="grid" href="#photoPage">Photos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div data-role="page" id="photoPage">
+    <div data-role="header" data-position="fixed"><h3>Photos</h3></div>
+    <div data-role="content">
+
+        <div class="ui-grid-b" data-theme="e">
+            <div class="ui-block-a"><img style="width:100%; height:75px" src="http://images.myfri3nd.com/user/256/298256/upload/queen-sirikit/queen-sirikit.jpg" /></div>
+            <div class="ui-block-b"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-11.jpg" /></div>
+            <div class="ui-block-c"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-13.jpg" /></div>
+
+            <div class="ui-block-a"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-15.jpg" /></div>
+            <div class="ui-block-b"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-23.jpg" /></div>
+            <div class="ui-block-c"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-31.jpg" /></div>
+ 
+            <div class="ui-block-a"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-32.jpg" /></div>
+            <div class="ui-block-b"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-43.jpg" /></div>
+            <div class="ui-block-c"><img style="width:100%; height:75px" src="http://www.pantip.com/cafe/library/topic/K12472382/K12472382-49.jpg" /></div>
+        </div>       
+        
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-icon="info" href="#infoPage">Info</a></li>
+                <li><a data-icon="plus" href="#bioPage">Biography</a></li>
+                <li><a data-icon="grid" class="ui-btn-active ui-state-persist" href="#photoPage">Photos</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
